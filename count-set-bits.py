@@ -24,4 +24,4 @@ def countSetBits(num):
         count += 1
     return count
 
-print(countSetBits(31))
+print(countSetBits(32))
