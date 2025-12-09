@@ -9,6 +9,6 @@ def removeNum(num, k):
     return str(max(nums))
 
 num = "21232"
-k = "2"
+k = "3"
 
 print(removeNum(num, k))
