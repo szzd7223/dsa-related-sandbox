@@ -2,7 +2,7 @@ from collections import defaultdict
 import itertools
 
 class Solution:
-    def pyramidTransition(self, bottom: str, allowed: List[str]) -> bool:
+    def pyramidTransition(bottom, allowed):
         T = defaultdict(list)
         for triple in allowed:
             T[(triple[0], triple[1])].append(triple[2])
